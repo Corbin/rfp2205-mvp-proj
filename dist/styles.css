@@ -67,6 +67,9 @@ input {
   align-items: center;
 }
 
+.search {
+  width: fit-content;
+}
 .search button {
   width: 53%;
 }
