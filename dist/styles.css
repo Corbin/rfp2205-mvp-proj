@@ -45,13 +45,14 @@ ul.navigation a:hover {
 input {
   background-color: #2f2f2f !important;
   border-bottom-style: hidden;
+  color: #949494;
 }
 .results {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.search {
+.search, .Login {
   text-align: center;
   margin-top: 10%;
   display: flex;
@@ -68,6 +69,9 @@ input {
 
 .search button {
   width: 53%;
+}
+.Login button {
+  width: 75px;
 }
 
 .Database {
@@ -87,4 +91,8 @@ th {
 th, td {
   padding: 15px;
   text-align: left;
+}
+
+.loginMsg {
+  color: rgb(210, 0, 0);
 }

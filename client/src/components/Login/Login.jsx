@@ -43,7 +43,7 @@ function Login () {
     : (
         <div className="Login" style={{display: 'flex',flexDirection: 'column',alignContent: 'center',justifyContent: 'center',alignItems: 'center'}}>
           Please Register/Login to Search!
-          <p>{loginMessage}</p>
+          <p className="loginMsg">{loginMessage}</p>
           <input type="text" name="username" required onChange={(e) => setUsername(e.target.value)}></input>
           <input type="password" name="username" required onChange={(e) => setPassword(md5(e.target.value))}></input>
           <Button name="register" onClick={(e) => handleClick(e)}>Register</Button>
